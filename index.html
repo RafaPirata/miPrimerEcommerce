@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+
+    <title>Desafio Eventos Piotti</title>
+</head>
+
+<body class="fondoInicio">
+    <div class="collapse" id="navbarToggleExternalContent">
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class=" navbar bg-dark p-2 m-2" id="fila_prueba">
+            </div>
+        </div>
+    </nav>
+    <section id="principal">
+        <form class="row g-3 p-3" id="busquedaProductos">
+            <div class="col-auto">
+                <label for="staticEmail2" class="visually-hidden">Busqueda</label>
+                <input type="text" class="form-control" id="nombreBusqueda" placeholder="Nombre del producto"
+                    aria-label="Username">
+            </div>
+            <div class="col-auto">
+                <button id="busqueda1" type="button" class="btn btn-primary mb-3">Consulta</button>
+            </div>
+        </form>
+        <div class="row">
+            <div class="col-md-2">
+                <select id="miSeleccion" class="form-select" aria-label="Default select example">
+                    <option value="pordefecto">ORDENAR</option>
+                    <option value="menor">Por menor precio</option>
+                    <option value="mayor">Por mayor precio</option>
+                    <option value="alfabetico">Por orden alfabético</option>
+                </select>
+                <p></p>
+            </div>
+        </div>
+
+        <article class="text-1">
+
+            <h1 id="titulo">Encuentra tu producto en nuestro catalago</h1>
+            <p>Articulos de limpieza</p>
+            <a href="./compra.html"></a>
+            <button id="boton1" class="btn btn-secondary">click para comprar</button>
+
+
+        </article>
+        <tbody id="tablabody">
+
+
+        </tbody>
+    </section>
+    <div id="carrito" class="vacio"></div>
+    <div id="botonDeCommpra">
+
+
+    </div>
+    <div id="productosSeleccionados" style="display: flex; flex-wrap: wrap; margin-left: 5%" class="seleccion1">
+    </div>
+    </div>
+
+    <footer class="pieFooter">
+
+    </footer>
+
+    <!-- vinvulo Bs -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="Final.js"></script>
+
+
+</body>
+
+
+</html>

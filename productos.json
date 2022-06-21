@@ -1,0 +1,66 @@
+[{
+        "id": 0,
+        "nombre": "SHAMPOO",
+        "marca": "Cleam",
+        "precio": 350,
+        "presentacion": "550 ml",
+        "img": "./img/frasco shampoo.png"
+
+    },
+    {
+        "id": 1,
+        "nombre": "TALCO",
+        "marca": "hellex",
+        "precio": 150,
+        "presentacion": "250 ml",
+        "img": "./img/talco.png"
+    },
+    {
+        "id": 2,
+        "nombre": "JABON",
+        "marca": "Avon",
+        "precio": 99,
+        "presentacion": "75 gr",
+        "img": "./img/jabon-glicerina.png"
+    },
+    {
+        "id": 3,
+        "nombre": "CREMA",
+        "marca": "LIPP",
+        "precio": 299,
+        "presentacion": "230 ml",
+        "img": "./img/frasco-poner-crema.png"
+    },
+    {
+        "id": 4,
+        "nombre": "DETERGENTE",
+        "marca": "BHL",
+        "precio": 399,
+        "presentacion": "750 ml",
+        "img": "./img/frasco-de-detergente.png"
+    },
+    {
+        "id": 5,
+        "nombre": "ANTIADHERENTE",
+        "marca": "FLEX",
+        "precio": 699,
+        "presentacion": "470 ml",
+        "img": "./img/antiadherente.png"
+    },
+    {
+        "id": 6,
+        "nombre": "JABON DE MANO",
+        "marca": "Avon",
+        "precio": 199,
+        "presentacion": "250 ml",
+        "img": "./img/jabonDeMano.png"
+    },
+    {
+        "id": 7,
+        "nombre": "CEPILLO",
+        "marca": "FLEX",
+        "precio": 59,
+        "presentacion": "Un",
+        "img": "./img/cepillo.png"
+    }
+]

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+* {
+  font-family: 'Roboto',
+ sans-serif;
+  margin: 0;
+  padding: 0; }
+
+  .fondoInicio{
+      background-color: rgb(43, 177, 26);
+      /* background: black; */
+      /* background: #ffffff; */
+      
+  }
+  .text-1{
+      font-size: 3rem;
+      margin: 50px;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      
+  }
+  /* .busqueda{
+      width: 150px;
+      height: 40px;
+      font-size: 1rem;
+  } */
+
+  .card{
+      margin: 5px;
+  }
+  .inpunt1{
+      width: 330px;
+      background: rgb(66, 111, 236);
+      color: black;
+      font-size: 1rem;
+      margin-inline: auto;
+      padding: 1px;
+      text-align: center;
+  }
+  .pieFooter{
+      margin: 20px;
+  }
+
+  
+
+  .botonDepago{
+      margin: 20px;
+      margin-left: 100px;
+      
+  }
+ .boton1 {
+     background: black;
+   
+ }
+ .oculto{
+    
+     display: none;
+     color: white;
+ }
+ .carrito{
+      display:grid ;
+     
+ }
+.eliminarCompra{
+    background: none;
+    border-color:transparent;
+}
+#finalizarCompra{
+    background-color: #0d6efd;
+    ;
+}
