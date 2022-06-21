@@ -340,8 +340,8 @@ function IniciarConv() {
 
                     precioTotal = obtenerPrecioTotal(carrito);
                     let resultado1 = convertir(precioTotal, inputValue);
-                    datos.innerHTML = "";
-                    contenidoEnStorage = [];
+                    // datos.innerHTML = "";
+                    // contenidoEnStorage = [];
 
                     /// incorporamos condicional ternario
 
@@ -357,6 +357,7 @@ function IniciarConv() {
 
 
                     console.log("*se elimina la venta*");
+                    vaciarTabla(carrito);
                 } else {
                     // Dijeron que no
                     console.log("*NO se elimina la venta*");
@@ -368,6 +369,17 @@ function IniciarConv() {
     }
 
 }
+
+// funcion para vaciar la tabla
+function vaciarTabla() {
+    for (let i = carrito.length; i > 0; i--) {
+        carrito.pop();
+    }
+    let contendor = document.getElementById("carrito");
+    contendor.innerHTML = "";
+    console.log(carrito);
+}
+
 // funcion para realizar la compra
 
 function menuDeCompras(idProducto) {
